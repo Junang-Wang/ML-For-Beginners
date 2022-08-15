@@ -20,7 +20,7 @@ while True:
         # if they typed in 'bye' (or even BYE, ByE, byE etc.), break out of the loop
         break
     else:
-        response = random.choices(random_responses)[0]
+        response = random.choices(random_responses)[0]     #若没有[0], 则输出['...']
     print(response)
 
 print("It was nice talking to you, goodbye!")
